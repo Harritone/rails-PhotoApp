@@ -19,7 +19,7 @@
           <a class="nav-link disabled" href="#">Disabled</a>
         </li>
       </ul>
-      <ul class="nav navbar-nav ml-auto col-md-4">
+      <ul class="nav navbar-nav ml-auto ">
         <% if current_user %>
           <li class="nav-item ">
             <%= link_to ('<i class="fa fa-user"></i> ' + truncate(current_user.email, length: 25)).html_safe,
