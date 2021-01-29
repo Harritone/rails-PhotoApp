@@ -8,6 +8,7 @@ import Turbolinks from 'turbolinks';
 import * as ActiveStorage from '@rails/activestorage';
 import 'bootstrap';
 import 'channels';
+require('custom/credit_card');
 
 Rails.start();
 Turbolinks.start();
